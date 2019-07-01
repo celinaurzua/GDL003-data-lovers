@@ -1,7 +1,7 @@
 window.dataLovers = {
 
-  filterData : (input, pokemonNames) => {
-		let filteredPokemons = input.filter((pokemon) => {
+  filterData : (name, pokemonNames) => {
+		let filteredPokemons = name.filter((pokemon) => {
 			let hasAnyType = false;
 			console.log(pokemonNames + " " + pokemon.name);
 			pokemonTypes.forEach(function (type) {
